@@ -2,8 +2,11 @@ require('newrelic');
 var express = require('express')
 var app = express()
 
+app.use('/components/', express.static(__dirname + '/bower_components'));
+app.use(express.static(__dirname + '/public'));
+
 app.get('/', function (req, res) {
-  res.send('Hello World!')
+  res.sendFile(__dirname + '/app.html');
 })
 
 var server = app.listen(3000, function () {
