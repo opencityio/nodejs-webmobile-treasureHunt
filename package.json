@@ -9,6 +9,7 @@
   "author": "Alex Shaw",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.10.2"
+    "express": "^4.10.2",
+    "newrelic": "^1.13.3"
   }
 }
