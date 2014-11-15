@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-webmobile-treasureHunt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Alex Shaw",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.10.2"
+  }
+}
