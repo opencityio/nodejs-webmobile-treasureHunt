@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.10.2",
+    "nconf": "^0.7.1",
     "newrelic": "^1.13.3"
   }
 }
