@@ -1,7 +1,8 @@
 require('newrelic');
-var express = require('express');
-var nconf = require('nconf');
-var app = express();
+var express = require('express'),
+    nconf = require('nconf'),
+    app = express(),
+    environment  = process.env.NODE_ENV || 'development';
 
 nconf
   .argv()
